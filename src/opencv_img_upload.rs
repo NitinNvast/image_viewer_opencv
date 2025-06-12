@@ -34,7 +34,7 @@ pub fn OpenCV_Img_Upload() -> Element {
             button {
                 onclick: pick_image,
                 class: "px-4 py-2 bg-indigo-600 text-white rounded text-2xl",
-                "RFD Image Upload"
+                "OpenCV Upload"
             }
             {
                 if let Some(url) = image_data_url() {
